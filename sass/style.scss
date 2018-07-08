@@ -1,0 +1,21 @@
+@import "compass";
+
+$font-stack:Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+#color1:hover::after{
+    color: aqua;
+    content: attr(value); 
+}
+
+#colorview{
+    width:150px;
+    height:150px;
+    border-style: dashed;
+    @include background-image(linear-gradient(to right, blue ,green));
+}

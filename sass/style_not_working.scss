@@ -1,0 +1,6 @@
+    /** @for $i from 1 through 6 {*/
+    /**    $cl#{$i}:attr(color#{$i}); */
+    /**}*/
+    /**$gd-color1: rgb($cl1,$cl2,$cl3); */
+    /**$gd-color2: rgb($cl4,$cl5,$cl6); */
+    /** @include background-image(linear-gradient(to right, $gd-color1 ,$gd-color2)); */
